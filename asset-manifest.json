@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8e395482.css",
+    "main.js": "/portfolio/static/js/main.7fad7247.js",
+    "static/media/drip.png": "/portfolio/static/media/drip.00284eb445006f1ce458.png",
+    "static/media/alyssa.JPEG": "/portfolio/static/media/alyssa.85af65ef4c4b4b26c0fd.JPEG",
+    "static/media/headshot.png": "/portfolio/static/media/headshot.5e2b33d54e256764b612.png",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.ae9e7dbb7aac111b21eb.pdf",
+    "static/media/moodafsized.png": "/portfolio/static/media/moodafsized.2b10611c4594f9dd01aa.png",
+    "static/media/superseater.png": "/portfolio/static/media/superseater.ca41db946c853844897d.png",
+    "static/media/dishcovery.png": "/portfolio/static/media/dishcovery.3f6c3933c1ed4b8afcd3.png",
+    "static/media/csharp.png": "/portfolio/static/media/csharp.26d62e2578e58fab1c4f.png",
+    "static/media/textBubble.png": "/portfolio/static/media/textBubble.34c432864ea1b5c7b20f.png",
+    "static/media/react.png": "/portfolio/static/media/react.9b7555d0232a2a8dabf9.png",
+    "static/media/python.png": "/portfolio/static/media/python.b21164d5bee65840d23a.png",
+    "static/media/sql.png": "/portfolio/static/media/sql.ef60ba6f65d5eeebce9c.png",
+    "static/media/battleship.png": "/portfolio/static/media/battleship.e090c26a8920af18bbe7.png",
+    "static/media/django.png": "/portfolio/static/media/django.cb3d28d065853266459f.png",
+    "static/media/java.webp": "/portfolio/static/media/java.3f09242c8188b765aac2.webp",
+    "index.html": "/portfolio/index.html",
+    "main.8e395482.css.map": "/portfolio/static/css/main.8e395482.css.map",
+    "main.7fad7247.js.map": "/portfolio/static/js/main.7fad7247.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e395482.css",
+    "static/js/main.7fad7247.js"
+  ]
+}
