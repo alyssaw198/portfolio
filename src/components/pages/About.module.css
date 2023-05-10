@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Schibsted Grotesk', sans-serif !important;
+}
+
+.main {
+    padding:45px;
+    width:100%;
+    height:100vh;
+    background-color: white;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.content {
+    width: fit-content;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    height:auto;
+    line-height: 2.5em;
+    text-align: center;
+    background-color: white;
+    margin: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 cyan;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .cardText {
+    background-color: lightcyan;
+    font-family: 'Lexend Deca', sans-serif;
+  }
+
+  .pfpimg {
+    max-width: 50%;
+  }
+
+  .text {
+    width: 800px;
+  }
+
+  .button {
+    appearance: button;
+    background-color: lightcyan;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: black 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 7px 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .button:focus {
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    text-decoration: none;
+  }
+  
+  .button:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .button:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, white 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button {
+      padding: 12px 50px;
+    }
+  }
+
+  .contacts {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .contacts img {
+    padding-right: 5px;
+    padding-left: 20px;
+  }
+
+  .contacts p {
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+  }
+
+  .firstIcon {
+    padding-left: 0px !important;
+  }

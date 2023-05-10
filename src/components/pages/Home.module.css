@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.main {
+    padding:60px;
+    padding-top:80px;
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.text {
+    position:relative;
+    max-width: 600px;
+    margin-left: 5%;
+}
+
+h3 {
+    font-weight: bolder;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-size: 2em; 
+}
+
+h3 span {
+    line-height: 1em;
+    font-size: 2.5em;
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+ul {
+    position: relative;
+    display: flex; 
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.firstBtn {
+    margin-left: 0px;
+}
+
+.pfp img {
+  width: 55%;
+  height: auto;
+  margin-left:25%;
+  border-style:solid;
+  border-radius: 5%;
+  border-width: 0px 10px 10px 0px;
+  border-color: black;
+
+}
+
+.button {
+  appearance: button;
+  background-color: lightcyan;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: black 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 7px 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button:focus {
+  text-decoration: none;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+.button:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button:not([disabled]):active {
+  box-shadow: white 2px 2px 0 0, white 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 12px 50px;
+  }
+}
