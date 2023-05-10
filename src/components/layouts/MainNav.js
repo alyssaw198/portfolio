@@ -8,16 +8,16 @@ function MainNav() {
         <h1>A.W.</h1>
         <ul>
           <li className={classes.animate}>
-            <NavLink to="/" style={({isActive}) => {return {textDecoration: isActive ? "underline" : "none", color: isActive ? "black" : "black"}}}>Home</NavLink>
+            <NavLink to="/portfolio/" style={({isActive}) => {return {textDecoration: isActive ? "underline" : "none", color: isActive ? "black" : "black"}}}>Home</NavLink>
           </li>
           <li className={classes.animate}>
-            <NavLink to="/about-me" style={({isActive}) => {return {textDecoration: isActive ? "underline" : "none", color: isActive ? "black" : "black"}}}>About Me</NavLink>
+            <NavLink to="/portfolio/about-me" style={({isActive}) => {return {textDecoration: isActive ? "underline" : "none", color: isActive ? "black" : "black"}}}>About Me</NavLink>
           </li>
           <li className={classes.animate}>
-            <NavLink to="skills" style={({isActive}) => {return {textDecoration: isActive ? "underline" : "none", color: isActive ? "black" : "black"}}}>Skills</NavLink>
+            <NavLink to="/portfolio/skills" style={({isActive}) => {return {textDecoration: isActive ? "underline" : "none", color: isActive ? "black" : "black"}}}>Skills</NavLink>
           </li>
           <li className={classes.animate}>
-            <NavLink to="projects" style={({isActive}) => {return {textDecoration: isActive ? "underline" : "none", color: isActive ? "black" : "black"}}}>Projects</NavLink>
+            <NavLink to="/portfolio/projects" style={({isActive}) => {return {textDecoration: isActive ? "underline" : "none", color: isActive ? "black" : "black"}}}>Projects</NavLink>
           </li>
         </ul>
       </nav>
