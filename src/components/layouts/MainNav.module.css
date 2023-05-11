@@ -26,6 +26,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: lightcyan;
+    z-index: 1;
 }
 
 nav .logo {

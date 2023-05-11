@@ -16,13 +16,14 @@
     height:100vh;
     display:flex;
     justify-content: space-between;
-    background-color: white;
+    z-index: -2;
 }
 
 .text {
     position:relative;
     max-width: 600px;
     margin-left: 5%;
+    z-index: -1;
 }
 
 h3 {
