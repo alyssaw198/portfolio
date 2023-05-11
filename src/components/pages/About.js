@@ -35,7 +35,7 @@ function About() {
           <br />
           <div className={classes.contacts}>
             <img src={email} alt="email-icon" className={classes.firstIcon}/>
-            <a href="mailto:alyssawu0104@gmail.com"><p>alyssawu0104@gmail.com</p></a>
+            <p>alyssawu0104@gmail.com</p>
             <img src={phone} alt="phone-icon"/>
             <p>(647)-868-5736</p>
           </div>
