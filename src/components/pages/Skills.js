@@ -80,7 +80,6 @@ function Skills() {
                             </li>
                         </ul>
                     </div>
-                    <img src={bubble} alt="text-bubble" className={classes.textBubble}/>
                 </div>
             </div>
         </div>
