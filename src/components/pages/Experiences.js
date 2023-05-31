@@ -5,3 +5,5 @@ function Experience() {
 }
 
 export default Experience;
+
+//run: "npm run deploy" to push react app to GitHub repo
