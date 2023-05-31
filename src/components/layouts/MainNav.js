@@ -19,6 +19,9 @@ function MainNav() {
           <li className={classes.animate}>
             <NavLink to="/portfolio/projects" style={({isActive}) => {return {textDecoration: isActive ? "underline" : "none", color: isActive ? "black" : "black"}}}>Projects</NavLink>
           </li>
+          <li className={classes.animate}>
+            <NavLink to="/portfolio/experience" style={({isActive}) => {return {textDecoration: isActive ? "underline" : "none", color: isActive ? "black" : "black"}}}>Experience</NavLink>
+          </li>
         </ul>
       </nav>
     </header>
