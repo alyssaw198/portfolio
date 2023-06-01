@@ -66,6 +66,7 @@ ul li {
   border-radius: 5%;
   border-width: 0px 10px 10px 0px;
   border-color: black;
+  min-width: 350px;
 
 }
 

@@ -56,18 +56,11 @@
 
 .icons img {
     width: 20%;
+    min-width: 40px;
     z-index: -1;
 }
 
 .imgCaption {
     background-color: lightcyan;
     z-index: -1;
-}
-
-.textBubble {
-    max-width: 8%;
-    position: relative;
-    margin-left: 900px;
-    bottom: 130px;
-    rotate: 12deg;
 }

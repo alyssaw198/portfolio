@@ -31,6 +31,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 30%;
+    min-width: 100px;
     height:auto;
     line-height: 2.5em;
     text-align: center;
@@ -55,6 +56,7 @@ body {
 
   .pfpimg {
     max-width: 50%;
+    min-width: 100px;
   }
 
   .text {
