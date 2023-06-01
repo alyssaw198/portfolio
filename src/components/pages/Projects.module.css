@@ -88,6 +88,8 @@
   
   .button:hover {
     text-decoration: none;
+    background-color: black;
+    color: white;
   }
   
   .button:active {

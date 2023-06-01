@@ -41,7 +41,7 @@ body {
   }
   
   .card:hover {
-    box-shadow: 0 8px 16px 0 cyan;
+    box-shadow: 0 8px 16px 0 black;
   }
   
   .container {
@@ -67,7 +67,7 @@ body {
     background-image: none;
     border: 1px solid #000;
     border-radius: 4px;
-    box-shadow: black 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-shadow: white 4px 4px 0 0,#000 4px 4px 0 1px;
     box-sizing: border-box;
     color: black;
     cursor: pointer;
@@ -94,6 +94,8 @@ body {
   
   .button:hover {
     text-decoration: none;
+    background-color: black;
+    color: white;
   }
   
   .button:active {
