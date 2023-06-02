@@ -1,2 +1,2 @@
 ## portfolio project
-## site: https://alyssaw198.github.io/portfolio/
+## site: http://www.alyssawu.ca/
