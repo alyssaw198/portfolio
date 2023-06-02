@@ -39,7 +39,7 @@ function Projects(props) {
             <img src={superSeater} alt="project" style={{width: "100%", height:"220px"}}/>
             <div className={classes.cardContent} style={{height:"310px"}}>
                 <h2><b>SuperSeater</b></h2>
-                <p style={{fontSize: "1em", lineHeight:"1.4em"}}>SuperSeater was awarded <span style={{fontWeight: "bold"}}>2nd place</span> at the 2023 McGill Women in Computer Science hackathon. Created for teachers, it’s an online student directory and seating chart generator that accounts for student classroom behaviors.</p>
+                <p style={{fontSize: "1em", lineHeight:"1.4em"}}>SuperSeater was awarded <span style={{fontWeight: "bolder", color: "orange", textDecoration: "underline", textDecorationColor: "black"}}>2nd place</span> at the 2023 McGill Women in Computer Science hackathon. Created for teachers, it’s an online student directory and seating chart generator that accounts for student classroom behaviors.</p>
                 <a href="https://github.com/alyssaw198/SuperSeater" target="blank"><button className={classes.button}>Github Link</button></a>
                 <h5>Made using:</h5>
                 <div className={classes.madeIcons}>
@@ -69,7 +69,7 @@ function Projects(props) {
             <img src={dishcovery} alt="project" style={{width: "100%", height:"220px"}}/>
             <div className={classes.cardContent} style={{height:"310px"}}>
                 <h2><b>DISHcovery</b></h2>
-                <p style={{fontSize: "1em", lineHeight:"1.4em"}}>DISHcovery won <span style={{fontWeight: "bold"}}>best UI/UX design</span> at McGill CodeJam hackathon in 2022. It’s a front-end focused website that uses Python’s Beautiful Soup package to generate random ingredients for users to cook with.</p>
+                <p style={{fontSize: "1em", lineHeight:"1.4em"}}>DISHcovery won <span style={{fontWeight: "bolder", color: "orange", textDecoration: "underline", textDecorationColor: "black"}}>best UI/UX design</span> at McGill CodeJam hackathon in 2022. It’s a front-end focused website that uses Python’s Beautiful Soup package to generate random ingredients for users to cook with.</p>
                 <a href="https://github.com/alyssaw198/DISHcovery" target="blank"><button className={classes.button}>Github Link</button></a>
                 <h5>Made using:</h5>
                 <div className={classes.madeIcons}>
