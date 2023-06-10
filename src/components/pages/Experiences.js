@@ -1,6 +1,12 @@
+import classes from './Experiences.module.css';
+
 function Experience() {
     return (
-        <div style={{color: "white"}}>Experiences</div>
+        <div style={{color: "black"}}>
+            <div className={classes.updating}>
+                Updating...
+            </div>
+        </div>
     );
 }
 
