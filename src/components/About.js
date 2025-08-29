@@ -2,8 +2,8 @@ import React from 'react';
 
 function About() {
   const skills = [
-    'React', 'JavaScript', 'Node.js', 'Python', 'SQL', 'Git',
-    'TypeScript', 'Next.js', 'MongoDB', 'AWS', 'Docker', 'Figma'
+    'Java', 'Spring', 'Python', 'SQL', 'Git',
+    'Bash', 'Jenkins', 'Kafka', 'React'
   ];
 
   return (
@@ -15,13 +15,11 @@ function About() {
               Hi, I'm <span className="highlight">Alyssa Wu</span>
             </h1>
             <p className="hero-subtitle">
-              A passionate Full Stack Developer who loves creating beautiful, 
-              functional, and user-centered digital experiences.
+              Passionate Backend Software Developer focused on building scalable and reliable systems.
             </p>
             <p className="hero-description">
-              With a strong foundation in both frontend and backend development, 
-              I specialize in building modern web applications that solve real-world problems. 
-              I'm always eager to learn new technologies and take on challenging projects.
+
+              With expereince in backend development, I specialize in maintaining and optimizing systems, designing and implementing new features, making sure they are all scalable and reliable. I'm always eager to improve my technical expertise and take on new engineering challenges!
             </p>
             
             <div className="cta-buttons">

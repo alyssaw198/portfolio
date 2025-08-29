@@ -4,44 +4,61 @@ function Experience() {
   const experiences = [
     {
       id: 1,
-      company: 'TechCorp Solutions',
-      position: 'Senior Full Stack Developer',
-      duration: '2022 - Present',
-      location: 'San Francisco, CA',
-      description: 'Lead development of enterprise web applications using React, Node.js, and AWS. Mentored junior developers and implemented best practices for code quality and performance.',
-      technologies: ['React', 'Node.js', 'AWS', 'MongoDB', 'TypeScript'],
+      company: 'Morgan Stanley',
+      position: 'Software Developer',
+      duration: 'Febuary 2025 - Present',
+      location: 'Montreal, Quebec',
+      description: 'Development and maintenance of trade settlement tool using Java and Spring to support high-volume trade processing, handling thousands of transactions daily.',
+      technologies: ['Java', 'Spring', 'SQL', 'Kafka', 'Jenkins'],
       achievements: [
-        'Reduced application load time by 40% through optimization',
-        'Led a team of 5 developers on a major client project',
-        'Implemented CI/CD pipeline reducing deployment time by 60%'
+        'Ensure code reliability and quality by writing comprehensive unit and integration tests, with thorough validation across all environments',
+        'Support and optimize Jenkins pipelines to streamline application build process',
+        'Implemented automated library updates, doubling dependency freshness and enhancing application resiliency and stability',
+        'Refactored and optimized Kafka data flows to efficiently process 10,000+ messages per day'
       ]
     },
     {
       id: 2,
-      company: 'StartupHub Inc.',
-      position: 'Full Stack Developer',
-      duration: '2020 - 2022',
-      location: 'San Francisco, CA',
-      description: 'Developed and maintained multiple web applications for startup clients. Worked closely with product managers and designers to deliver high-quality solutions.',
-      technologies: ['React', 'Python', 'PostgreSQL', 'Docker', 'Git'],
+      company: 'Morgan Stanley',
+      position: 'Software Developer Intern',
+      duration: 'May 2024 - August 2024',
+      location: 'Montreal, Quebec',
+      description: 'Development of internal software to improve system performance and enhance database compatibility.',
+      technologies: ['Java', 'Spring', 'SQL', 'MyBatis', 'H2 Database'],
       achievements: [
-        'Built 3 successful MVP applications for startup clients',
-        'Improved codebase maintainability by 50%',
-        'Reduced bug reports by 30% through better testing'
+        'Migrated internal software from a traditional database to an in-memory H2 database, permitting concurrent testing and eliminating latencies up to 1 hour per pull request within the software development life cycle',
+        'Implemented MyBatis in place of JDBC to leverage native SQL, enabling compatibility across multiple databases',
+        'Implemented automated unit and integration test cases using JUnit and Mockito tests',
+        'Selected to present internship project to full-time employees and executives at company-wide technology exhibition'
       ]
     },
     {
       id: 3,
-      company: 'Digital Innovations',
-      position: 'Frontend Developer',
-      duration: '2018 - 2020',
-      location: 'San Francisco, CA',
-      description: 'Specialized in creating responsive and accessible user interfaces. Collaborated with UX/UI designers to implement pixel-perfect designs.',
-      technologies: ['JavaScript', 'React', 'CSS3', 'HTML5', 'Figma'],
+      company: 'Communications Security Establishment',
+      position: 'Software Developer Intern',
+      duration: 'September 2023 - December 2023',
+      location: 'Ottawa, Ontario',
+      description: 'Development of internal ETL framework for data ingestion using Python.',
+      technologies: ['Python', 'Prometheus', 'Elastic Stack'],
       achievements: [
-        'Improved website accessibility score to 95%',
-        'Reduced bundle size by 25% through code optimization',
-        'Implemented responsive design for 10+ client websites'
+        'Optimized the runtime of an organization-wide file verification tool by 92% through implementing multithreading',
+        'Integrated Prometheus into an internal ETL framework, enabling metric collection and visualization for data ingestors',
+        'Created comprehensive dashboards to monitor and maintain data ingestors via the ELK stack to ensure optimal performance and accurate alert generation',
+        'Implemented dataframe sampling for organization-wide ingested data, reducing staging storage needs by 90%'
+      ]
+    },
+    {
+      id: 4,
+      company: 'Aviva Insurance',
+      position: 'Data Intern',
+      duration: 'June 2023 - August 2023',
+      location: 'Toronto, Ontario',
+      description: 'Data analysis and quality assurance of claims data.',
+      technologies: ['SQL', 'SAS', 'Python', 'Plotly', 'Matplotlib'],
+      achievements: [
+        'Performed data quality assurance and data analysis using SQL, SAS and Python on 1,000,000+ documents to determine operational insights for insurance use cases',
+        'Developed comprehensive unit tests in Python using PyTest that consistently achieved 90%+ of code coverage',
+        'Utilized Plotly and Matplotlib for data visualization in organizing presentations for data science and business teams'
       ]
     }
   ];
@@ -51,7 +68,7 @@ function Experience() {
       <div className="container">
         <div className="section-header">
           <h2>Work Experience</h2>
-          <p>My professional journey in software development</p>
+          <p>My professional journey in technology</p>
         </div>
         
         <div className="experience-timeline">
@@ -76,7 +93,7 @@ function Experience() {
                 </div>
                 
                 <div className="experience-achievements">
-                  <h5>Key Achievements:</h5>
+                  <h5>Contributions:</h5>
                   <ul>
                     {experience.achievements.map((achievement, achievementIndex) => (
                       <li key={achievementIndex}>{achievement}</li>

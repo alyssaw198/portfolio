@@ -18,7 +18,7 @@ function Header({ onNavigate, activeSection, isScrolled }) {
       <div className="header-container">
         <div className="logo">
           <h1>Alyssa Wu</h1>
-          <span className="tagline">Full Stack Developer</span>
+          <span className="tagline">Software Developer</span>
         </div>
         
         <nav className={`nav ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
